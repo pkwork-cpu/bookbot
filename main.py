@@ -24,7 +24,7 @@ def main():
     # sort list by highest used charector to least
     sort_list.sort(reverse=True, key=sort_on)
     #finally prints word count and list of charectors and number of charectors
-    print ("============ BOOKBOT ============\nAnalyzing book found at books/frankenstein.txt...\n----------- Word Count ----------")
+    print (f"============ BOOKBOT ============\nAnalyzing book found at {sys.argv[1]}...\n----------- Word Count ----------")
     print (f"Found {wordcount} total words\n--------- Character Count -------")
     for i in range(len(sort_list)) :
         charector = sort_list[i]["char"]
