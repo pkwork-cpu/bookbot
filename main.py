@@ -1,5 +1,5 @@
 def main():
-    # import command-line argument script name and path to book
+    # import command-line argument script name and path to book.
     import sys
     # if path to file is not specified will prompt instruction on how to use program
     if len(sys.argv) < 2:
